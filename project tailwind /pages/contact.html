@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1e71e53ab1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body class="bg-slate-500">
+        <!-- nav bar section -->
+        <nav class="flex items-center justify-between px-12 h-16 bg-white w-full lg:gap-32 ">
+            <div class="flex">
+                <img class="rounded-full size-12" src="./logo-3.png" alt="">
+                <a href="" class="font-bold text-2xl border-2 px-2
+                py-1">Portfolio </a>
+            </div>
+            <div class="dropdown-menu absolute -top-full left-0 bg-white w-full flex-col gap-6 text-center py-2 text-lg font-bold lg:static lg:flex lg:flex-row lg:justify-between ">
+                <ul class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+                    <li class="list-none inline-block px-5"><a href="./index.html" class=" hover:text-orange-400 no-underline text-black px-2" >Home</a></li>
+                    <li class="list-none inline-block px-5"><a href="./project.html" class="  hover:text-orange-400 no-underline text-black px-2">Project</a></li>
+                    <li class="list-none inline-block px-5"><a href="#" class=" hover:text-orange-400 no-underline text-black px-2">About</a></li>
+                    <li class="list-none inline-block px-5"><a href="./contact.html" class=" hover:text-orange-400 no-underline text-black px-2">Contact</a></li>
+                </ul>
+                <div class="flex flex-col items-center gap-6 lg:flex lg:flex-row">
+                    <button class="hover:text-orange-400">Login</button>
+                    <button class="bg-orange-400 rounded-lg px-2 py1
+                    ">Sign up</button>
+                   </div>
+               </div>
+               <div class="toggle-button lg:hidden lg:flex-row lg:gap-8">
+                   <i class="fa-solid fa-bars fa-lg"></i>
+               </div>
+            </div>
+        </nav>
+    </div>
+        <div class="flex w-full min-h-screen justify-center items-center" >
+            <div class=" flex flex-col md:flex-row md:space-x-6 md:space-y-0  space-y-6 bg-slate-800 w-full max-w-4xl p-8 rounded-xl sm:p-12 shadow-lg text-white">
+
+                <div class="flex flex-col space-y-8 justify-between ">
+                    <div>
+                        <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
+                        <p class="pt-2 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, doloremque</p>
+                    </div>
+                    <div class="flex flex-col space-y-6">
+                        <div class="inline-flex space-x-2"><ion-icon name="call-outline" class="text-teal-300 text-xl" ></ion-icon> <span> +(234) 8029205427</span></div>
+                        <div class="inline-flex space-x-2"><ion-icon name="mail" class="text-teal-300 text-xl" ></ion-icon> <span>peutebright@gmail.com</span></div>
+                        <div class="inline-flex space-x-2"><ion-icon name="location" class="text-teal-300 text-xl" ></ion-icon> <span>Lekki phase, Lagos, Nigeria.</span></div>
+                    </div>
+                    <!-- icons -->
+                    <div class="flex space-x-5 text-lg">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+
+                </div>
+                <!-- inputs -->
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
+                        <form action="" class="flex-col space-y-4">
+                            <div>
+                                <label for="">Your name</label>
+                                <input type="text" placeholder="your name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-non focus:ring-2 focus:ring-teal-300 mt-2">
+                            </div>
+                            <div>
+                                <label for="">Email address</label>
+                                <input type="text" placeholder="example@gmail.com" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-non focus:ring-2 focus:ring-teal-300 mt-2">
+                            </div>
+                            <div>
+                                <label for="">Phone No.</label>
+                                <input type="number" placeholder="your phone number" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-non focus:ring-2 focus:ring-teal-300 mt-2">
+                            </div>
+                            <div>
+                                <label for="">Message</label>
+                                <input type="text" placeholder="leave a Message" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-non focus:ring-2 focus:ring-teal-300 mt-2">
+                            </div>
+                            
+                            <button class="inline-block self-end bg-blue-600 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm focus:bg-red-500">SUBMIT</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- footer section -->
+
+        <footer class="bg-blue-700 py-12 mt-40">
+            <div class="container mx-auto px-2 text-white">
+                <div class="flex justify-between">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Explore</h2>
+                        <!-- icons -->
+                        <ul class="flex justify-around text-3xl">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            
+                        </ul>
+                    </div>
+                    <!-- learn more -->
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Learn More</h2>
+                        <ul class="ml-6">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+    
+                        </ul>
+                    </div>
+                    <!-- copyright -->
+                    <div>
+                        <h2 class="text-3xl font-pecifico font-bold mb-4">PoTenTial</h2>
+                        <p>@copy right 2024 by Devitamin.com</p>
+                    </div>
+    
+    
+    
+    
+                </div>
+    
+            </div>
+
+            <script>
+                const toggleBtn = document.querySelector(".toggle-button");
+                const dropdown = document.querySelector(".dropdown-menu")
+    
+                toggleBtn.addEventListener("click",()=>{
+                    dropdown.classList.toggle('top-16');
+                })
+            </script>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
